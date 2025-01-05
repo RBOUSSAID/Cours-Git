@@ -1,0 +1,14 @@
+1.connaitre la version : 
+-git --version
+
+2.renseigner un nom et un adresse mail :
+    -git config --global user.name "nom prenom"
+    -git config --global user.email "nomprenom@mail.com"
+
+3.vérifier et s'assurer que les informations ont bien été enrigistrées :
+    -git config user.name
+    -git config user.email
+
+4.choisir un éditeur different :
+    -git config --global core.editor nom_de_l'editeur_choisi
+
